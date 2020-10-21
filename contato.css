@@ -1,0 +1,42 @@
+@charset "UTF-8";
+form {
+    width: 500px; /*largura*/
+    margin: auto; /*essa margem serve para o documento ficar centralizado*/
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal; /*serve pata negrito*/
+    font-size: 13pt;  /*tamanho da fonte*/
+    background-color: rgba(255,255,255,.8); 
+}
+input:hover, textarea:hover {
+    background-color:#dddddd; /*cor de fundo pos passar o mouse*/
+}
+legend {
+     color: #888888;
+     font-weight: bold; /*serve p´ra dar enfase*/
+     font-size: 13pt;
+     font-family: sans-serif;
+ }
+ fieldset {
+     border-color: #cecece; /*cor da borda*/
+     margin: 20px;
+ }
+ fieldset#sexo {
+     width: 150px;
+ }
+ fieldset#usuario {
+     background: url("img/icone-contato.png") no-repeat 95% 95%; /*pocentagem de lateral e vertical da imagem*/
+ }
+ fieldset#endereco {
+    background: url("img/icone-endereco.png") no-repeat 95% 95%;
+ }
+    fieldset#mensagem {
+        background: url("img/icone-mensagem.png") no-repeat 95% 95%;
+}
+        fieldset#pedido {
+            background: url("img/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+ /*toda vez q for usado o (#) indica um id="" e toda vez q for (.) indica uma class=""*/
